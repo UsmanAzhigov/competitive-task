@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.header_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 42px 193px;
+  background: #1392dc;
+  color: #fff;
+}
+
+.container {
+  padding: 47px 193px;
+  flex-direction: column;
+}
+
+.header_menu {
+  display: flex;
+  align-items: center;
+  gap: 114px;
+}
+
+.header_menu_list {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  list-style-type: none;
+}
+
+.header_menu_list li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+  transition: font-weight 0.3s ease;
+}
+
+.header_menu_list li:hover {
+  font-weight: bold;
+}
+
+.header_to_profile {
+  cursor: pointer;
+}
+
+.header_to_profile:hover {
+  font-weight: bold;
+}
