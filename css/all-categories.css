@@ -12,6 +12,11 @@ body {
   margin: 0;
 }
 
+main {
+  margin: 30px 0;
+  height: 100vh;
+}
+
 .container {
   max-width: 1060px;
   margin: 0 auto;
@@ -118,69 +123,8 @@ header ul {
   text-decoration: none;
 }
 
-main {
-  margin: 30px 0;
-}
-
-section {
-  margin-bottom: 80px;
-}
-
 section h2 {
-  margin: 25px 0;
-}
-
-.news-card {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  border: 1px solid rgb(230, 230, 230);
-  padding: 10px;
-  border-radius: 15px;
-}
-
-.news-card h4 {
-  margin-top: 5px;
-}
-
-.news-card a {
-  margin-top: 5px;
-}
-
-.news-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 20px;
-}
-
-.news-list .news-card {
-  animation: fadeIn 0.8s ease-in-out forwards;
-  opacity: 0;
-  transform: translateY(10px);
-}
-
-.news-list .news-card:nth-child(1) {
-  animation-delay: 0.2s;
-}
-
-.news-list .news-card:nth-child(2) {
-  animation-delay: 0.3s;
-}
-
-.news-list .news-card:nth-child(3) {
-  animation-delay: 0.4s;
-}
-
-.news-list .news-card:nth-child(4) {
-  animation-delay: 0.5s;
-}
-
-.news-list .news-card:nth-child(5) {
-  animation-delay: 0.6s;
-}
-
-.news-list .news-card:nth-child(6) {
-  animation-delay: 0.7s;
+  margin-bottom: 49px;
 }
 
 .filters-block {
@@ -293,14 +237,4 @@ section h2 {
 .logo {
   text-decoration: none;
   color: #fff;
-}
-
-.section-title {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.section-title a {
-  color: black;
-  text-decoration: none;
 }

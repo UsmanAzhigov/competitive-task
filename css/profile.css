@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+}
+
+.profile_data {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  border: 1px solid #cccccc;
+  padding: 56px;
+  border-radius: 20px;
+}
+
+.container main {
+  display: flex;
+  flex-direction: column;
+  height: 81vh;
+  gap: 70px;
+}
+
+.profile_data_info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.profile_data_buttons {
+  display: flex;
+  height: 48px;
+  gap: 25px;
+}
+
+.leave_profile {
+  background-color: black;
+  color: #ffffff;
+}
